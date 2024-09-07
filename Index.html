@@ -6,26 +6,31 @@
     <title>Document</title>
   </head>
   <body>
+    <h1>Personal Details Form</h1>
     <form>
-      <h1>Personal Details Form</h1>
-      <label>Name</label><br />
-      <input type="text" id="name" /><br /><br />
+      <fieldset>
+        <legend>Personal Details Form</legend>
+        <label>Name</label><br />
+        <input type="text" id="name" /><br /><br />
 
-      <label>Email ID</label><br />
-      <input type="text" id="email" /><br /><br />
+        <label>Email ID</label><br />
+        <input type="text" id="email" /><br /><br />
 
-      <label>Contact Number (This will be hidden)</label><br />
-      <input type="password" id="contact" /><br /><br />
+        <label>Contact Number (This will be hidden)</label><br />
+        <input type="password" id="contact" /><br /><br />
 
-      <label>Gender</label><br />
-      <input type="radio" name="gender" value="Female" /> Female<br />
-      <input type="radio" name="gender" value="Male" /> Male<br />
+        <label>Gender</label><br />
+        <input type="radio" name="gender" value="Female" /> Female<br />
+        <input type="radio" name="gender" value="Male" /> Male<br />
 
-      <label>Favorite City</label><br />
-      <input type="checkbox" id="city" value="Los Angeles" /> Los Angeles<br />
-      <input type="checkbox" id="city" value="Alabama" /> Alabama<br /><br />
+        <label>Favorite City</label><br />
+        <input type="checkbox" id="city" value="Los Angeles" /> Los Angeles<br />
+        <input type="checkbox" id="city" value="Alabama" /> Alabama<br /><br />
+        <label>Birthday</label><br />
+        <input type="date" id="birthday" name="birthday" /><br /><br />
 
-      <input type="submit" />
+        <input type="submit" />
+      </fieldset>
     </form>
   </body>
 </html>
